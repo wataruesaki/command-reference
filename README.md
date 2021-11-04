@@ -274,7 +274,7 @@ yarn run [script]
 docker ps
 ```
 
-### 作成した全てのコンテナの一覧を表示
+### 全てのコンテナの一覧を表示
 
 ```zsh
 docker ps -a
