@@ -4,9 +4,7 @@
 
 ・[git](#git)
 
-・[npm](#npm)
-
-・[yarn](#yarn)
+・[npm・yarn](#npmyarn)
 
 ## git
 
@@ -202,6 +200,66 @@ git stash apply
 git stash clear
 ```
 
-## npm
+## npm・yarn
 
-## yarn
+### 初期化
+
+```zsh
+npm init -y
+
+yarn init -y
+```
+
+### パッケージの情報を表示
+
+```zsh
+npm info [package]
+```
+
+### PCにパッケージをインストール
+
+```zsh
+sudo npm i -g [package]
+
+sudo yarn global add [package]
+```
+
+### PCにインストールしたパッケージの一覧を表示
+
+```zsh
+npm ls -g --depth=0
+
+yarn global list --depth=0
+```
+
+### 開発環境のみで使うパッケージをインストール
+
+```zsh
+npm i -D [package]
+
+yarn add -D [package]
+```
+
+### 本番環境でも使うパッケージをインストール
+
+```zsh
+npm i [package]
+
+yarn add [package]
+```
+
+### パッケージをアンインストール
+
+```zsh
+npm rm [package]
+
+yarn remove [package]
+```
+
+### npm scripts
+
+```zsh
+npm run [script]
+
+yarn run [script]
+```
