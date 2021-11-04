@@ -6,6 +6,8 @@
 
 ・[npm・yarn](#npmyarn)
 
+・[docker](#docker)
+
 ## git
 
 ### 初期化
@@ -262,4 +264,48 @@ yarn remove [package]
 npm run [script]
 
 yarn run [script]
+```
+
+## docker
+
+### 起動しているコンテナの一覧を表示
+
+```zsh
+docker ps
+```
+
+### 作成した全てのコンテナの一覧を表示
+
+```zsh
+docker ps -a
+```
+
+### docker compose でコンテナを起動
+
+```zsh
+docker compose up
+```
+
+### docker compose でコンテナを起動（バックグラウンド）
+
+```zsh
+docker compose up -d
+```
+
+### docker compose でコンテナを停止
+
+```zsh
+docker-compose stop
+```
+
+### コンテナを削除
+
+```zsh
+docker rm [id]
+```
+
+### コンテナを一括削除
+
+```zsh
+docker rm `docker ps -a -q`
 ```
