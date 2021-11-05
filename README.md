@@ -1,6 +1,6 @@
 # コマンドリファレンス
 
-## Table of contents
+## 目次
 
 ・[git](#git)
 
