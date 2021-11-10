@@ -252,6 +252,12 @@ yarn init -y
 npm info [package]
 ```
 
+### パッケージのドキュメントを表示
+
+```zsh
+npm docs [package]
+```
+
 ### PCにパッケージをインストール
 
 ```zsh
