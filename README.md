@@ -282,6 +282,10 @@ yarn global list --depth=0
 
 ### 開発環境のみで使うパッケージをインストール
 
+アプリケーションの実行には関係ないが、これがあると開発が捗るというパッケージをインストールします。
+
+例: ESLint、Prettier
+
 ```zsh
 npm i -D [package]
 
@@ -289,6 +293,10 @@ yarn add -D [package]
 ```
 
 ### 本番環境でも使うパッケージをインストール
+
+これが無いとアプリケーションを実行できないというパッケージをインストールします。
+
+例: React、Express
 
 ```zsh
 npm i [package]
