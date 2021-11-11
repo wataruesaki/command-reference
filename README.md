@@ -48,6 +48,12 @@ rm [path]
 rm -rf [path]
 ```
 
+### 画面をクリア
+
+```zsh
+clear
+```
+
 ## git
 
 ### 初期化
