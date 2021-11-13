@@ -10,6 +10,8 @@
 
 ・[docker](#docker)
 
+・[その他](#その他)
+
 ## フォルダ
 
 ### フォルダを作成
@@ -368,4 +370,18 @@ docker rm [id]
 
 ```zsh
 docker rm `docker ps -a -q`
+```
+
+## その他
+
+### プロセスが開いているファイルを表示
+
+```zsh
+lsof -i:[PORT]
+```
+
+### プロセスを停止
+
+```zsh
+kill -9 [PID]
 ```
