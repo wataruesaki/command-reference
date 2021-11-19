@@ -70,10 +70,28 @@ git init
 git log
 ```
 
+### グラフィカルなログを表示
+
+```zsh
+git log --graph
+```
+
 ### ステータスを表示
 
 ```zsh
 git status
+```
+
+### ステージングしていない差分を表示
+
+```zsh
+git diff
+```
+
+### ステージングした差分を表示
+
+```zsh
+git diff --staged
 ```
 
 ### ブランチ間の差分を表示
