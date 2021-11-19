@@ -166,6 +166,12 @@ git branch -m [branch]
 git branch -d [branch]
 ```
 
+### ブランチを強制的に削除
+
+```zsh
+git branch -D [branch]
+```
+
 ### ステージングしていない変更の差分を表示
 
 ```zsh
