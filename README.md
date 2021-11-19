@@ -82,18 +82,6 @@ git log --graph
 git status
 ```
 
-### ステージングしていない差分を表示
-
-```zsh
-git diff
-```
-
-### ステージングした差分を表示
-
-```zsh
-git diff --staged
-```
-
 ### ブランチ間の差分を表示
 
 Bが最新のブランチであると仮定して差分を表示します。
@@ -172,28 +160,16 @@ git branch -d [branch]
 git branch -D [branch]
 ```
 
-### ステージングしていない変更の差分を表示
+### ステージングしていない差分を表示
 
 ```zsh
 git diff
 ```
 
-### ステージングしていない特定の変更の差分を表示
+### ステージングした差分を表示
 
 ```zsh
-git diff -- [path]
-```
-
-### ステージングした変更の差分を表示
-
-```zsh
-git diff --cached
-```
-
-### ステージングした特定の変更の差分を表示
-
-```zsh
-git diff -- [path] --cached
+git diff --staged
 ```
 
 ### 変更をステージング
@@ -205,7 +181,7 @@ git add .
 ### 特定の変更をステージング
 
 ```zsh
-git add -- [path]
+git add [path]
 ```
 
 ### 変更のステージングを取り消す
